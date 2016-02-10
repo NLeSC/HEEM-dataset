@@ -62,6 +62,6 @@ format. The emotions can be found in the emotions-layer:
     </externalReferences>
   </emotion>
   
-  ##lexicon
+## lexicon
   The lexicon contains all wordforms from the manually annotated corpus, their concepttypes (i.e. Emotion, Bodypart, Bodily process or Emotional Action) and the emotion(s) they evoke. The lexical data are represented in xml following the guidelines from the Lexical Markup Framework.
 ```
