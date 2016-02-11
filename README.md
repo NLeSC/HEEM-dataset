@@ -33,7 +33,7 @@ This directory contains JSON objects specifying mappings and clusterings.
 * bodyParts: mapping between words for body parts used in the texts and body part categories (in English). For example, the words _hooft_,_kop_, and _hoofd_ belong to category **head**.
 * HEEM clusters: clustering of HEEM labels into broader classes of emotions
 * PosNeg: clustering of  HEEM labels into 2 classes of emotions (postive and negative)
-* labelTranslations:  translations of the Dutch HEEM labels and modifiers to English.The English labels are used in the naf-files. 
+* heemLabels and heemModifiers: translations of the Dutch HEEM labels and modifiers to English.The English labels are used in the naf-files. 
 
 ## lexicon
   The lexicon contains the annotated words and multiword expressions from the manually annotated corpus,
