@@ -67,8 +67,9 @@ format. The emotions can be found in the emotions-layer:
 
 ## lexicon
 
-  The lexicon contains all wordforms from the manually annotated corpus, 
+  The lexicon contains the annotated words and multiword expressions from the manually annotated corpus, 
   their concepttypes (i.e. Emotion, Bodypart, Bodily process 
-  or Emotional Action) and the emotion(s) they evoke. The lexical data
-  are represented in xml following the guidelines from the Lexical Markup Framework.
+  or Emotional Action) and the emotion(s) they evoke. The data
+  is represented in xml following Lexical Markup Framework (LMF) guidelines which is teh ISO standard for 
+  for Natural Language Processing (NLP) lexicons.
 
