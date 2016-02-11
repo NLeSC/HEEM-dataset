@@ -21,13 +21,46 @@ The dataset consists of four subsets:
 4. EDBO: texts selected from [Early Dutch Books
 Online](http://www.earlydutchbooksonline.nl/en/edbo) (67 texts)
 
+## annotation guidelines
+
+The annotation guidelines (Handleiding-annotaties-nl.pdf- version 2015) contain
+* definitions of the HEEM concepts
+* instructions on how to manually label emotions and bodyparts in the text
+
+They are written in Dutch.
+
+## bodyParts
+
+This directory contains a JSON object specifying a mapping between words for
+body parts used in the texts and body part categories (in English). For example, the words _hooft_,
+_kop_, and _hoofd_ belong to category **head**.
+
+## labelClusterings
+
+This directory contains JSON objects specifying clusterings of the HEEM labels:
+
+* HEEM clusters
+* PosNeg
+
+## labelTranslations
+
+This directory contains JSON objects specifying the translations of the Dutch
+HEEM labels and modifiers to English.
+
+## lexicon
+
+  The lexicon contains the annotated words and multiword expressions from the manually annotated corpus,
+  their concepttypes (i.e. Emotion, Bodypart, Bodily process
+  or Emotional Action) and the emotion(s) they evoke. The data
+  is represented in xml following Lexical Markup Framework (LMF) guidelines which is teh ISO standard for
+  for Natural Language Processing (NLP) lexicons.
+
 ## naf
 
 The `naf` directory contains the annotations and predicted labels in NAF-
 format. The emotions can be found in the emotions-layer:
 
 ```
-
 <emotions>
   <emotion id="emo0">
   <emotion_target/>
@@ -62,23 +95,5 @@ format. The emotions can be found in the emotions-layer:
       <externalRef reference="negative" resource="heem:posNeg"/>
     </externalReferences>
   </emotion>
-
+</emotions>
 ```
-
-## annotation guidelines
-
-The annotation guidelines (Handleiding-annotaties-nl.pdf- version 2015) contain
-* definitions of the HEEM concepts
-* instructions on how to manually label emotions and bodyparts in the text
-
-They are written in Dutch.
-
-
-## lexicon
-
-  The lexicon contains the annotated words and multiword expressions from the manually annotated corpus, 
-  their concepttypes (i.e. Emotion, Bodypart, Bodily process 
-  or Emotional Action) and the emotion(s) they evoke. The data
-  is represented in xml following Lexical Markup Framework (LMF) guidelines which is teh ISO standard for 
-  for Natural Language Processing (NLP) lexicons.
-

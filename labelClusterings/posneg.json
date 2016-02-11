@@ -1,0 +1,43 @@
+{
+  "Positive": [
+    "Liefde",
+    "Blijdschap",
+    "Verlangen",
+    "Mededogen",
+    "Hoop",
+    "Eergevoel",
+    "Ontroering",
+    "Trouw",
+    "Verwondering",
+    "Geluk",
+    "Berusting",
+    "Toewijding",
+    "Ontzag",
+    "Welwillendheid",
+    "Opluchting",
+    "Trots",
+    "Vertrouwen"
+  ],
+  "Negative": [
+    "Verdriet",
+    "Angst",
+    "Woede",
+    "Wanhoop",
+    "Wraakzucht",
+    "Haat",
+    "Wroeging",
+    "Schaamte",
+    "Bezorgdheid",
+    "Walging",
+    "Bedruktheid",
+    "Beledigd",
+    "Wrok",
+    "Achterdocht",
+    "Jaloezie",
+    "Wrevel",
+    "Ongeluk",
+    "Gemis",
+    "Teleurstelling",
+    "Hebzucht"
+  ]
+}

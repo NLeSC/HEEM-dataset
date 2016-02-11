@@ -1,0 +1,61 @@
+{
+  "Desire": [
+    "Verlangen",
+    "Hebzucht",
+    "Jaloezie"
+  ],
+  "PosSentiments": [
+    "Ontroering",
+    "Berusting",
+    "Vertrouwen",
+    "Welwillendheid"
+  ],
+  "Sadness": [
+    "Verdriet",
+    "Bedruktheid",
+    "Teleurstelling",
+    "Gemis",
+    "Wroeging"
+  ],
+  "Despair": [
+    "Wanhoop",
+    "Ongeluk"
+  ],
+  "Disgust": [
+    "Walging",
+    "Schaamte"
+  ],
+  "Love": [
+    "Liefde",
+    "Trouw",
+    "Toewijding"
+  ],
+  "PrideHonour": [
+    "Trots",
+    "Eergevoel"
+  ],
+  "Compassion": [
+    "Mededogen"
+  ],
+  "Joy": [
+    "Blijdschap",
+    "Geluk",
+    "Hoop",
+    "Opluchting",
+    "Verwondering"
+  ],
+  "Anger": [
+    "Woede",
+    "Haat",
+    "Wrevel",
+    "Wrok",
+    "Beledigd",
+    "Wraakzucht"
+  ],
+  "Fear": [
+    "Angst",
+    "Bezorgdheid",
+    "Achterdocht",
+    "Ontzag"
+  ]
+}
