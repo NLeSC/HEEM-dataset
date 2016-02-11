@@ -4,11 +4,11 @@
 * DONE human annotated data ( NAF)
 * DONE machine annotated data (NAF)
 * DONE lexicon based on annotated data (LMF)
-* overview annotation tags, and emotion hierarchies
-* + korte beschrijving per dataset
+* DONE overview annotation tags, and emotion hierarchies
+* DONE korte beschrijving per dataset (zie corpus metadata)
 * data license
-* Translation between Dutch and English labels
-* Corpus metadata?
+* DONE Translation between Dutch and English labels
+* Corpus metadata 
 
 The dataset consists of four subsets:
 
@@ -22,28 +22,20 @@ The dataset consists of four subsets:
 Online](http://www.earlydutchbooksonline.nl/en/edbo) (67 texts)
 
 ## annotation guidelines
-
 The annotation guidelines (Handleiding-annotaties-nl.pdf- version 2015) contain
 * definitions of the HEEM concepts
 * instructions on how to manually label emotions and bodyparts in the text
 
 They are written in Dutch.
+
 ## labels
 This directory contains JSON objects specifying mappings and clusterings. 
 * bodyParts: mapping between words for body parts used in the texts and body part categories (in English). For example, the words _hooft_,_kop_, and _hoofd_ belong to category **head**.
-
-%### labelClusterings
 * HEEM clusters: clustering of HEEM labels into broader classes of emotions
-* PosNeg: clustering of  HEEM labels into 2 classes of emotions
-
-%### labelTranslations
-* labelTranslations:  translations of the Dutch
-HEEM labels and modifiers to English.
-
-The English labels are used in the naf-files. 
+* PosNeg: clustering of  HEEM labels into 2 classes of emotions (postive and negative)
+* labelTranslations:  translations of the Dutch HEEM labels and modifiers to English.The English labels are used in the naf-files. 
 
 ## lexicon
-
   The lexicon contains the annotated words and multiword expressions from the manually annotated corpus,
   their concepttypes (i.e. Emotion, Bodypart, Bodily process
   or Emotional Action) and the emotion(s) they evoke. The data
@@ -51,7 +43,6 @@ The English labels are used in the naf-files.
   for Natural Language Processing (NLP) lexicons.
 
 ## naf
-
 The `naf` directory contains the annotations and predicted labels in NAF-
 format. The emotions can be found in the emotions-layer:
 
