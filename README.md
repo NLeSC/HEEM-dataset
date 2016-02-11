@@ -30,21 +30,14 @@ The annotation guidelines (Handleiding-annotaties-nl.pdf- version 2015) contain
 They are written in Dutch.
 ## labels
 This directory contains JSON objects specifying mappings and clusterings. 
-### bodyParts
- mapping between words for
-body parts used in the texts and body part categories (in English). For example, the words _hooft_,
-_kop_, and _hoofd_ belong to category **head**.
+* bodyParts: mapping between words for body parts used in the texts and body part categories (in English). For example, the words _hooft_,_kop_, and _hoofd_ belong to category **head**.
 
-### labelClusterings
-
-This directory contains JSON objects specifying clusterings of the HEEM labels:
-
+%### labelClusterings
 * HEEM clusters: clustering of HEEM labels into broader classes of emotions
 * PosNeg: clustering of  HEEM labels into 2 classes of emotions
 
-### labelTranslations
-
-This directory contains JSON objects specifying the translations of the Dutch
+%### labelTranslations
+* labelTranslations:  translations of the Dutch
 HEEM labels and modifiers to English.
 
 The English labels are used in the naf-files. 
