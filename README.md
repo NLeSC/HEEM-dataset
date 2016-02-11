@@ -47,6 +47,8 @@ This directory contains JSON objects specifying clusterings of the HEEM labels:
 This directory contains JSON objects specifying the translations of the Dutch
 HEEM labels and modifiers to English.
 
+The English labels are used in the naf-files. 
+
 ## lexicon
 
   The lexicon contains the annotated words and multiword expressions from the manually annotated corpus,
