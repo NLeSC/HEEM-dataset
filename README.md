@@ -65,6 +65,13 @@ format. The emotions can be found in the emotions-layer:
 
 ```
 
+## annotation guidelines
+
+The annotation guidelines (Handleiding-HEEM.pdf) contain
+* definitions of the HEEM concepts
+* instructions on how to label emotions and bodyparts in the text
+
+
 ## lexicon
 
   The lexicon contains the annotated words and multiword expressions from the manually annotated corpus, 
