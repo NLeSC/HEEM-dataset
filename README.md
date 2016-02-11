@@ -63,42 +63,7 @@ format. The emotions can be found in the emotions-layer:
     </externalReferences>
   </emotion>
 
-## lexicon
-```lex
-<emotions>
-  <emotion id="emo0">
-  <emotion_target/>
-  <emotion_holder/>
-  <emotion_expression/>
-    <span>
-      <!-- kop -->
-      <target id="t1874"/>
-    </span>
-    <externalReferences>
-      <externalRef reference="conceptType:bodyPart" resource="heem"/>
-      <externalRef reference="head" resource="heem:bodyParts"/>
-    </externalReferences>
-  </emotion>
-  <emotion id="emo1">
-    <emotion_target/>
-    <emotion_holder/>
-    <emotion_expression/>
-    <span>
-      <!-- maek my de kop niet warm -->
-      <target id="t1871"/>
-      <target id="t1872"/>
-      <target id="t1873"/>
-      <target id="t1874"/>
-      <target id="t1875"/>
-      <target id="t1876"/>
-    </span>
-    <externalReferences>
-      <externalRef reference="conceptType:bodilyProcess" resource="heem"/>
-      <externalRef reference="emotionType:anger" resource="heem"/>
-      <externalRef reference="anger" resource="heem:clusters"/>
-      <externalRef reference="negative" resource="heem:posNeg"/>
-    </externalReferences>
-  </emotion>
+```
 
 ## lexicon
 
@@ -106,4 +71,4 @@ format. The emotions can be found in the emotions-layer:
   their concepttypes (i.e. Emotion, Bodypart, Bodily process 
   or Emotional Action) and the emotion(s) they evoke. The lexical data
   are represented in xml following the guidelines from the Lexical Markup Framework.
-```lex
+
