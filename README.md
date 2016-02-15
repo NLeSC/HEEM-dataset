@@ -34,8 +34,8 @@ They are written in Dutch.
 ## labels
 This directory contains JSON objects specifying mappings and clusterings.
 * bodyParts: mapping between words for body parts used in the texts and body part categories (in English). For example, the words _hooft_, _kop_, and _hoofd_ belong to category **head**.
-* HEEM clusters: clustering of HEEM labels into broader classes of emotions
-* PosNeg: clustering of  HEEM labels into 2 classes of emotions (postive and negative)
+* HEEM clusters: clustering of HEEM labels into broader classes of emotions (see [1] for more details)
+* PosNeg: clustering of  HEEM labels into 2 classes of emotions (postive and negative) (see [1] for more details)
 * heemLabels and heemModifiers: translations of the Dutch HEEM labels and modifiers to English.
 The English labels are used in the naf-files.
 
@@ -86,3 +86,9 @@ format. The emotions can be found in the emotions-layer:
   </emotion>
 </emotions>
 ```
+
+## References
+
+[1] J.M. van der Zwaan, I. Leemans, E. Kuijpers, and I. Maks. HEEM, a Complex
+Model for Mining Emotions in Historical Text. 11th IEEE International Conference
+on eScience, 2015 [10.1109/eScience.2015.18](http://dx.doi.org/10.1109/eScience.2015.18)
