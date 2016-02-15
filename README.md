@@ -1,16 +1,5 @@
 # HEEM-dataset
 
-* DONE guidelines (in Dutch)
-* DONE human annotated data ( NAF)
-* DONE machine annotated data (NAF)
-* DONE lexicon based on annotated data (LMF)
-* DONE overview annotation tags, and emotion hierarchies
-* DONE korte beschrijving per dataset (zie corpus metadata)
-* DONE data license
-* DONE Translation between Dutch and English labels
-* DONE Corpus metadata
-* DONE Link to naf (description of format)
-
 The corpus consists of 279 texts.
 Metadata about the corpus can be found in `corpus_metadata.csv` (please note that
   this is a **tab**-separated file). The metadata consists of:
@@ -21,7 +10,8 @@ Metadata about the corpus can be found in `corpus_metadata.csv` (please note tha
   such as the authors)
 * authors: authors separated by & (also a noisy field)
 * source: [nederlab](http://www.nederlab.nl/), [ceneton](http://www.let.leidenuniv.nl/Dutch/Ceneton/), or [edbo](http://www.earlydutchbooksonline.nl/en/edbo) (early Dutch books online)
-* set: annotations/predictions
+* set: annotations/predictions (there are also predictions for the texts that were
+  manually annotated)
 * period: classicism, renaissance, or enlightenment
 
 ## annotation guidelines
@@ -46,8 +36,8 @@ or Emotional Action) and the emotion(s) they evoke. The data
 is represented in xml following Lexical Markup Framework (LMF) guidelines which is the ISO standard for for Natural Language Processing (NLP) lexicons.
 
 ## naf
-The `naf`  directory contains the annotations and predicted labels in NAF-
-format. (https://github.com/newsreader/NAF/blob/master/naf.pdf) The emotions can be found in the emotions-layer:
+The `naf`  directory contains the annotations and predicted labels in [NAF-
+format](https://github.com/newsreader/NAF/blob/master/naf.pdf). The emotions can be found in the emotions-layer:
 
 ```
 <emotions>
