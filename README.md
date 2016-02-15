@@ -8,18 +8,21 @@
 * DONE korte beschrijving per dataset (zie corpus metadata)
 * data license
 * DONE Translation between Dutch and English labels
-* Corpus metadata 
+* DONE Corpus metadata
+* Link to naf (description of format)
 
-The dataset consists of four subsets:
-
-1. Annotation corpus: texts selected from
-[Nederlab](http://www.nederlab.nl/) manually annotaded with HEEM labels
-(including humor modifiers and intensifiers) (29 texts)
-2. Ceneton: texts selected from [Ceneton](http://www.let.leidenuniv.nl/Dutch/Ceneton/) (34 texts)
-3. Corpus big: other texts selected from
-[Nederlab](http://www.nederlab.nl/) (149 texts)
-4. EDBO: texts selected from [Early Dutch Books
-Online](http://www.earlydutchbooksonline.nl/en/edbo) (67 texts)
+The corpus consists of 279 texts.
+Metadata about the corpus can be found in `corpus_metadata.csv` (please note that
+  this is a **tab**-separated file). The metadata consists of:
+* text id: file name of naf-files
+* year: publication year of text
+* genre: blijspel / komedie, klucht, tragedie/treurspel, Anders, unknown, Toneelspel, music
+* title (for the ceneton texts this field is noisy and also contains other information
+  such as the authors)
+* authors: authors separated by & (also a noisy field)
+* source: [nederlab](http://www.nederlab.nl/), [ceneton](http://www.let.leidenuniv.nl/Dutch/Ceneton/), or [edbo](http://www.earlydutchbooksonline.nl/en/edbo) (early Dutch books online)
+* set: annotations/predictions
+* period: classicism, renaissance, or enlightenment
 
 ## annotation guidelines
 The annotation guidelines (Handleiding-annotaties-nl.pdf- version 2015) contain
@@ -29,18 +32,18 @@ The annotation guidelines (Handleiding-annotaties-nl.pdf- version 2015) contain
 They are written in Dutch.
 
 ## labels
-This directory contains JSON objects specifying mappings and clusterings. 
-* bodyParts: mapping between words for body parts used in the texts and body part categories (in English). For example, the words _hooft_,_kop_, and _hoofd_ belong to category **head**.
+This directory contains JSON objects specifying mappings and clusterings.
+* bodyParts: mapping between words for body parts used in the texts and body part categories (in English). For example, the words _hooft_, _kop_, and _hoofd_ belong to category **head**.
 * HEEM clusters: clustering of HEEM labels into broader classes of emotions
 * PosNeg: clustering of  HEEM labels into 2 classes of emotions (postive and negative)
-* heemLabels and heemModifiers: translations of the Dutch HEEM labels and modifiers to English.The English labels are used in the naf-files. 
+* heemLabels and heemModifiers: translations of the Dutch HEEM labels and modifiers to English.
+The English labels are used in the naf-files.
 
 ## lexicon
-  The lexicon contains the annotated words and multiword expressions from the manually annotated corpus,
-  their concepttypes (i.e. Emotion, Bodypart, Bodily process
-  or Emotional Action) and the emotion(s) they evoke. The data
-  is represented in xml following Lexical Markup Framework (LMF) guidelines which is teh ISO standard for
-  for Natural Language Processing (NLP) lexicons.
+The lexicon contains the annotated words and multiword expressions from the manually annotated corpus,
+their concepttypes (i.e. Emotion, Bodypart, Bodily process
+or Emotional Action) and the emotion(s) they evoke. The data
+is represented in xml following Lexical Markup Framework (LMF) guidelines which is the ISO standard for for Natural Language Processing (NLP) lexicons.
 
 ## naf
 The `naf` directory contains the annotations and predicted labels in NAF-
