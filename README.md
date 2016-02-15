@@ -46,8 +46,8 @@ or Emotional Action) and the emotion(s) they evoke. The data
 is represented in xml following Lexical Markup Framework (LMF) guidelines which is the ISO standard for for Natural Language Processing (NLP) lexicons.
 
 ## naf
-The `naf` directory contains the annotations and predicted labels in NAF-
-format. The emotions can be found in the emotions-layer:
+The `naf`  directory contains the annotations and predicted labels in NAF-
+format. (https://github.com/newsreader/NAF/blob/master/naf.pdf) The emotions can be found in the emotions-layer:
 
 ```
 <emotions>
