@@ -9,7 +9,7 @@
 * data license
 * DONE Translation between Dutch and English labels
 * DONE Corpus metadata
-* Link to naf (description of format)
+* DONE Link to naf (description of format)
 
 The corpus consists of 279 texts.
 Metadata about the corpus can be found in `corpus_metadata.csv` (please note that
