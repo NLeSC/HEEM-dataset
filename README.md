@@ -87,6 +87,9 @@ format. (https://github.com/newsreader/NAF/blob/master/naf.pdf) The emotions can
 </emotions>
 ```
 
+## License
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-sa/4.0/).
+
 ## References
 
 [1] J.M. van der Zwaan, I. Leemans, E. Kuijpers, and I. Maks. HEEM, a Complex
