@@ -6,7 +6,7 @@
 * DONE lexicon based on annotated data (LMF)
 * DONE overview annotation tags, and emotion hierarchies
 * DONE korte beschrijving per dataset (zie corpus metadata)
-* data license
+* DONE data license
 * DONE Translation between Dutch and English labels
 * DONE Corpus metadata
 * DONE Link to naf (description of format)
