@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/20232/NLeSC/HEEM-dataset.svg)](https://zenodo.org/badge/latestdoi/20232/NLeSC/HEEM-dataset)
+
 # HEEM-dataset
 
 The corpus consists of 279 texts.
